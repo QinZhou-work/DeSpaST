@@ -1,4 +1,4 @@
-<img src="https://git.biohpc.swmed.edu/QBRC/deep-learning/development/DESTINY/-/raw/main/figures/qbrc_logo.png?inline=false" width="40%"/>
+<img src="https://github.com/QinZhou-work/DeSpaST/blob/36c54578fd902fe8f0b4c8a19bcbcb0268089a08/figures/qbrc_logo.png?inline=false" width="40%"/>
 
 
 # DESTINY
@@ -9,7 +9,7 @@ Deconvoluting Spatial Transcriptomics Spot-level Signals to Single-Cell Resoluti
 This script implements DESTINY, a model that integrates histology-derived cell features with spatial transcriptomics data using dynamic edge-conditioned graph convolution. It segments cells, extracts morphological and spatial features, and builds cellular graphs to deconvolute spot-level expression into single-cell profiles, improving spatial resolution and interpretability.
 
 <div align="center">
-  <img src="https://git.biohpc.swmed.edu/QBRC/deep-learning/development/DESTINY/-/raw/main/figures/figure1_github.png?inline=True" alt="Alt text" width="90%"/>
+  <img src="https://github.com/QinZhou-work/DeSpaST/blob/36c54578fd902fe8f0b4c8a19bcbcb0268089a08/figures/figure1_github.png?inline=True" alt="Alt text" width="90%"/>
 </div>
 
 # Installation
