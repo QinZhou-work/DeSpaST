@@ -14,8 +14,6 @@ This script implements DeSpaST, a model that integrates histology-derived cell f
 
 # Installation
 DeSpaST works with Python 3.6.6. Please make sure you have the correct verion of Python.  
-- (Need to test if other Python versions are compatible.)
-- (Update the requirements file accordingly.)
 
 ```
 conda create -n "DeSpaST" python=3.6.6
@@ -40,7 +38,7 @@ python extract_image_feature.py \
   --device cuda:0
 </pre>
 
-we recommend our developed models, HD-Staining or HD-YOLO.
+For more reference:
 
 HD-Staining: https://lce.biohpc.swmed.edu/maskrcnn/
 
