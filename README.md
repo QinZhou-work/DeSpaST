@@ -28,8 +28,19 @@ pip install -r DeSpaST_requirements.txt
 
 - [ ] [Spatial transcriptmoic data processing](https://git.biohpc.swmed.edu/QBRC/deep-learning/development/DESTINY/-/settings/integrations)
 
-### b) Image data processing
-Cells in the images can be segmented using currently available methods; we recommend our developed models, HD-Staining or HD-YOLO.
+### b) Image feature extraction:
+
+Cells in the images can be segmented using our methods or other similiar method.
+<pre>
+python extract_image_feature.py \
+  --input-dir ./example_data \
+  --output-dir ./output/ \
+  --model-dir ./models/image/ \
+  --slide-id CytAssist_11mm_FFPE_Human_Ovarian_Carcinoma_tissue_image \
+  --device cuda:0
+</pre>
+
+we recommend our developed models, HD-Staining or HD-YOLO.
 
 HD-Staining: https://lce.biohpc.swmed.edu/maskrcnn/
 
