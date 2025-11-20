@@ -13,8 +13,7 @@ This script implements DeSpaST, a model that integrates histology-derived cell f
 </div>
 
 # Installation
-DeSpaST works with Python 3.6.6. Please make sure you have the correct verion of Python.  
-
+DeSpaST works Python >=3.6. Here we use Python=3.6.6. 
 ```
 conda create -n "DeSpaST" python=3.6.6
 conda activate DeSpaST
@@ -22,11 +21,8 @@ pip install -r DeSpaST_requirements.txt
 ```
 
 # User Guideline
-### a) Spatial transcriptmoic data processing
 
-- [ ] [Spatial transcriptmoic data processing](https://git.biohpc.swmed.edu/QBRC/deep-learning/development/DESTINY/-/settings/integrations)
-
-### b) Image feature extraction:
+### a) Image feature extraction:
 
 Cells in the images can be segmented using our methods or other similiar method.
 <pre>
@@ -46,9 +42,10 @@ HD-YOLO: https://github.com/impromptuRong/hd_wsi
 
 After segmenting cells from H&E images, the extracted cell information can then be input into the model.
 
-### c) Constructe the model 
+### b) Constructe the model 
 
+[Constructe the model](https://github.com/QinZhou-work/DeSpaST/blob/c60d892f37d627bbeff7815d1d489eb9cd2dbdb5/Main/1_DespaST_model_construct.ipynb)
 
+### c) Deconvolved gene expression for each cell
 
-### d) Deconvolved gene expression for each cell
-
+[Resolution enhancement](https://github.com/QinZhou-work/DeSpaST/blob/c60d892f37d627bbeff7815d1d489eb9cd2dbdb5/Main/2_DespaST_inference.ipynb)
