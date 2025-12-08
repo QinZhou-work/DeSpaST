@@ -22,7 +22,7 @@ pip install -r DeSpaST_requirements.txt
 
 # User Guideline
 
-### a) Image feature extraction:
+### Step 1. Image feature extraction:
 
 Cells in the images can be segmented using our methods or other similiar method.
 <pre>
@@ -42,10 +42,10 @@ HD-YOLO: https://github.com/impromptuRong/hd_wsi
 
 After segmenting cells from H&E images, the extracted cell information can then be input into the model.
 
-### b) Constructe the model 
+### Step 2. Constructe the model 
 
-[Constructe the model](https://github.com/QinZhou-work/DeSpaST/blob/c60d892f37d627bbeff7815d1d489eb9cd2dbdb5/Main/1_DespaST_model_construct.ipynb)
+[Constructe the model](https://github.com/QinZhou-work/DeSpaST/blob/dd54a198cd9e0233d07c396c3413a15aa0aa9725/tutorial/DespaST_1_model_construction.ipynb)
 
-### c) Deconvolved gene expression for each cell
+### Step 3. Inference gene expression for each cell
 
-[Resolution enhancement](https://github.com/QinZhou-work/DeSpaST/blob/c60d892f37d627bbeff7815d1d489eb9cd2dbdb5/Main/2_DespaST_inference.ipynb)
+[Resolution enhancement](https://github.com/QinZhou-work/DeSpaST/blob/dd54a198cd9e0233d07c396c3413a15aa0aa9725/tutorial/DespaST_2_Inference.ipynb)
