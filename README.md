@@ -5,6 +5,8 @@
 
 Deconvoluting Spatial Transcriptomics Spot-level Signals to Single-Cell Resolution Using Histology Images
 
+Author: Qin Zhou (qin.zhou@utsouthwestern.edu)
+
 # Introduction
 This script implements DeSpaST, a model that integrates histology-derived cell features with spatial transcriptomics data using dynamic edge-conditioned graph convolution. It segments cells, extracts morphological and spatial features, and builds cellular graphs to deconvolute spot-level expression into single-cell profiles, improving spatial resolution and interpretability.
 
@@ -13,11 +15,40 @@ This script implements DeSpaST, a model that integrates histology-derived cell f
 </div>
 
 # Installation
-DeSpaST works Python >=3.6. Here we use Python=3.6.6. 
+The dependencies for this project contains
+
+- torch
+- torchvision
+- spicy
+- numpy
+- pandas
+- opencv-python
+- Pillow
+- matplotlib
+- scikit-image
+- openslide
+- PyYAML
+
+Install the dependencies by pip install requirements
+
 ```
 conda create -n "DeSpaST" python=3.6.6
 conda activate DeSpaST
 pip install -r DeSpaST_requirements.txt
+```
+
+Install 'openslde' by the conda install
+```
+conda install -c conda-forge openslide
+```
+### [Troubleshooting]
+
+If you cann't install 'opencv-python' and get the error message like "ERROR: Could not build wheels for opencv-python which use PEP 517 and cannot be installed directly", you can fix it by
+
+```
+python -m pip install --upgrade pip setuptools wheel
+python -m pip install --upgrade cmake
+python -m pip install --prefer-binary opencv-python
 ```
 
 # User Guideline
