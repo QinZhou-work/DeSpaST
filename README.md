@@ -37,7 +37,7 @@ conda activate DeSpaST
 pip install -r DeSpaST_requirements.txt
 ```
 
-Install 'openslde' by the conda install
+Install 'openslide' by the conda install
 ```
 conda install -c conda-forge openslide
 ```
