@@ -80,3 +80,6 @@ After segmenting cells from H&E images, the extracted cell information can then 
 ### Step 3. Inference gene expression for each cell
 
 [Resolution enhancement](https://github.com/QinZhou-work/DeSpaST/blob/dd54a198cd9e0233d07c396c3413a15aa0aa9725/tutorial/DespaST_2_Inference.ipynb)
+
+# License
+Following UT Southwestern Office for Technology Development, the project is using the license from The University of Texas Southwestern Medical Center.
