@@ -15,7 +15,7 @@ This script implements DeSpaST, a model that integrates histology-derived cell f
 </div>
 
 # Installation
-The dependencies for this project contains
+The core dependencies for this project contains
 
 - torch
 - torchvision
